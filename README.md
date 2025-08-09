@@ -4,11 +4,11 @@
   <img src="https://i.ibb.co/nNdt9YY2/image-2025-08-08-230042321.png" width="400" />
 </p>
 
-Created a batch image processing tool for captioning images since JoyCaption's demo only captions one image at a time.
+Created an image processing tool focused on batch captioning, since JoyCaption’s demo only captions one image at a time.
 
 ## Installation
 
-1. First clone Llama JoyCaption Beta One
+1. First clone Llama JoyCaption Beta One Model
 
 ```bash
 git clone https://huggingface.co/fancyfeast/llama-joycaption-beta-one-hf-llava
@@ -76,3 +76,6 @@ python batch_caption.py "C:\MyImages" --model "path/to/custom/model"
 - `straightforward`: Concise, objective captions
 
 Creates `.txt` files alongside each image.
+
+**Credits:**
+- JoyCaption: https://github.com/fpgaminer/joycaption
