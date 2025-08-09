@@ -17,7 +17,7 @@ git clone https://huggingface.co/fancyfeast/llama-joycaption-beta-one-hf-llava
 2. Create venv and activate
 
 ```bash
-python -m venv venv or py -m venv venv
+python -m venv venv
 
 venv\Scripts\activate
 ```
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 4. Run GUI
 
 ```bash
-python image_captioner.py or py image_captioner.py
+python image_captioner.py
 ```
 
 5. CLI Alternative
