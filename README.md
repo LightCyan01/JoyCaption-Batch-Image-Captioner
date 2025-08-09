@@ -1,7 +1,7 @@
 # JoyCaption Batch Image Captioner
 
 <p align="center">
-  <img src="https://i.ibb.co/nNdt9YY2/image-2025-08-08-230042321.png" width="400" />
+  <img src="https://i.ibb.co/WNNhTTQj/image-2025-08-08-231012012.png" width="400" />
 </p>
 
 Created an image processing tool focused on batch captioning, since JoyCaption’s demo only captions one image at a time.
@@ -61,13 +61,13 @@ python batch_caption.py "C:\MyImages" --style descriptive
 
 # Custom model path
 python batch_caption.py "C:\MyImages" --model "path/to/custom/model"
+```
 
 **Options:**
 
 - `--style` : Caption style (`training`, `descriptive`, `straightforward`) - Default: `training`
 - `--overwrite` : Overwrite existing caption files
 - `--model` : Custom model path - Default: `llama-joycaption-beta-one-hf-llava`
-```
 
 **Caption Styles:**
 
