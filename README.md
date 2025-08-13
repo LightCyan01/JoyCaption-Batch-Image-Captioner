@@ -8,13 +8,20 @@ Created an image processing tool focused on batch captioning, since JoyCaptionâ€
 
 ## Installation
 
-1. First clone Llama JoyCaption Beta One Model
+1. Clone this repository
+
+```bash
+git clone https://github.com/LightCyan01/JoyCaption-Batch-Image-Captioner.git
+cd JoyCaption-Batch-Image-Captioner
+```
+
+2. Clone the JoyCaption model
 
 ```bash
 git clone https://huggingface.co/fancyfeast/llama-joycaption-beta-one-hf-llava
 ```
 
-2. Create venv and activate
+3. Create venv and activate
 
 ```bash
 python -m venv venv
@@ -22,7 +29,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-3. Install requirements
+4. Install requirements
 
 **For GPU:**
 
@@ -78,4 +85,5 @@ python batch_caption.py "C:\MyImages" --model "path/to/custom/model"
 Creates `.txt` files alongside each image.
 
 **Credits:**
+
 - JoyCaption: https://github.com/fpgaminer/joycaption
